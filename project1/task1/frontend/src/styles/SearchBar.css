@@ -1,0 +1,26 @@
+.search-input{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+    margin: auto;
+    margin-top: 50px;
+}
+
+.search-input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.search-input button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.user-info-box{
+    margin: 40px 0;
+}
+
+.box{
+    width: 357px;
+    height: 314px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.info{
+    padding: 24px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info h1{
+    font-size: 24px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #8189A3;
+    font-size: 14px;
+}
+
+.contact img{
+    width: 24px;
+    height: 24px;
+}
